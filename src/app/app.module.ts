@@ -17,12 +17,14 @@ import {Component} from '@angular/core';
 import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
 
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { BuscaComponent } from './busca/busca.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    BuscaComponent,
   ],
   imports: [
     BrowserModule,

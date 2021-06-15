@@ -12,6 +12,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { HomeComponent } from './modules/home/home.component';
 
+import {Component} from '@angular/core';
+
+import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
+
+import {MatFormFieldModule} from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +30,8 @@ import { HomeComponent } from './modules/home/home.component';
     MatButtonModule,
     MatToolbarModule,
     FlexLayoutModule,
-    
+    MatBottomSheetModule,
+    MatFormFieldModule
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

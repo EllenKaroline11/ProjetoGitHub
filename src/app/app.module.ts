@@ -10,6 +10,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+import { AppRoutingModule } from './app-routing.module';
+
 import { HomeComponent } from './modules/home/home.component';
 
 import {Component} from '@angular/core';
@@ -33,7 +35,8 @@ import { BuscaComponent } from './busca/busca.component';
     MatToolbarModule,
     FlexLayoutModule,
     MatBottomSheetModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    AppRoutingModule
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

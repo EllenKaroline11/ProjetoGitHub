@@ -1,6 +1,7 @@
 import { Component, NgModule, OnInit } from '@angular/core';
 import { AppComponent } from 'src/app/app.component';
 import {MatBottomSheet, MatBottomSheetRef} from '@angular/material/bottom-sheet';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-home',
